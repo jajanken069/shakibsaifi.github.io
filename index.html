@@ -3,38 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <title>Articles | Your Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is where you introduce yourself or your business.</p>
-    </section>
+    <main>
+        <section class="article-list">
+            <article class="article-preview">
+                <img src="image1.jpg" alt="Article Image 1">
+                <div class="article-content">
+                    <h2>Article Title 1</h2>
+                    <p>Short description of the article goes here. It gives readers an idea of the content.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
 
-    <section id="services">
-        <h2>Services</h2>
-        <p>List your services or what your website offers.</p>
-    </section>
+            <article class="article-preview">
+                <img src="image2.jpg" alt="Article Image 2">
+                <div class="article-content">
+                    <h2>Article Title 2</h2>
+                    <p>Another article description that hooks readers to explore further.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach us at <a href="mailto:info@example.com">info@example.com</a></p>
-    </section>
+            <!-- Repeat for more articles -->
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
